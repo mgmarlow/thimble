@@ -1,0 +1,4 @@
+thimble is a simple wiki generator for plaintext files. It's
+implemented in a single Ruby file.
+
+Check out this [[cool link]]. This is a [[dead link]].
