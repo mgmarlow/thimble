@@ -1,17 +1,22 @@
 # thimble
 
-A simple wiki generator for plaintext files. Written in a single Ruby file.
+A simple wiki generator for plaintext files in a single Ruby file. Supports
+double-bracket link syntax (`[[my link]]`) and nothing else.
+
+## Installation
+
+Gem TBD. For now, clone the repo and run locally.
 
 ## Usage
 
-Plaintext syntax:
+Example plaintext file, `index.txt`:
 
 ```
 Links are created via [[double brackets]]. Backlinks are
 automatically appended to the bottom of the document.
 ```
 
-thimble CLI:
+Run the thimble CLI:
 
 ```
 thimble my-dir/
